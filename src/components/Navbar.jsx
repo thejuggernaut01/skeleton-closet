@@ -10,7 +10,7 @@ const Navbar = () => {
       <nav className="flex justify-around items-center py-5">
         <div className="flex justify-between items-center">
           <Image src={logo} width={50} height={50} alt="Skeleton Closet Logo" />
-          <h1 className="text-xl italic">SKELETON CLOSET</h1>
+          <h1 className="text-xl">SKELETON CLOSET</h1>
         </div>
 
         <div className="flex items-center space-x-3">
@@ -51,7 +51,7 @@ const Navbar = () => {
             target="_blank"
             referrerPolicy="no-referrer"
           >
-            <Image src={opensea} width={25} height={25} alt="open sea logo" />
+            <Image src={opensea} width={35} height={35} alt="open sea logo" />
           </Link>
         </div>
       </nav>
