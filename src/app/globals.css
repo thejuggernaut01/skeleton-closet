@@ -4,15 +4,47 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 
-/* @layer base {
+@layer base {
   @font-face {
-    font-family: "LucidDream";
-    src: local("Lucid Dream"),
-      url("/public/fonts/LucidDream.ttf") format("truetype");
+    font-family: "Cornerita";
+    src: local("Cornerita Black"),
+      url("../../public/fonts/Cornerita_Black.ttf") format("truetype");
     font-weight: normal;
     font-display: swap;
   }
-} */
+
+  @font-face {
+    font-family: "Cornerita";
+    src: local("Cornerita VF"),
+      url("../../public/fonts/Cornerita-VF.ttf") format("truetype");
+    font-weight: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Cornerita";
+    src: local("Cornerita Bold"),
+      url("../../public/fonts/Cornerita_Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Cornerita";
+    src: local("Cornerita Regular"),
+      url("../../public/fonts/Cornerita_Regular.ttf") format("truetype");
+    font-weight: 800;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Cornerita";
+    src: local("Cornerita Thin"),
+      url("../../public/fonts/Cornerita_Thin.ttf") format("tff");
+    font-weight: 800;
+    font-display: swap;
+  }
+}
 
 * {
   margin: 0;
@@ -21,11 +53,10 @@
 }
 
 body {
-  /* -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "LucidDream"; */
 
   color: rgb(255, 255, 255);
   background: linear-gradient(to bottom, transparent, rgb(0, 0, 0)) rgb(0, 0, 0);
-  font-family: "Dancing Script", cursive;
+  font-family: "Cornerita", sans-serif;
 }

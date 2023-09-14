@@ -84,6 +84,16 @@ export default function Home() {
           </p>
         </section>
 
+        <section className="mt-16 flex justify-center items-center">
+          <iframe
+            src={`https://embed.ipfscdn.io/ipfs/bafybeihazpt6pkm4azgtupdz7hc2j3o4zpjsvtcgfq4t2keozxkss3ud6q/?contract=0x186b2F39DF65BD313Df6E010fB253F1126517D20&chain=%7B"name"%3A"Polygon+Mainnet"%2C"chain"%3A"Polygon"%2C"rpc"%3A%5B"https%3A%2F%2Fpolygon.rpc.thirdweb.com%2F%24%7BTHIRDWEB_API_KEY%7D"%5D%2C"nativeCurrency"%3A%7B"name"%3A"MATIC"%2C"symbol"%3A"MATIC"%2C"decimals"%3A18%7D%2C"shortName"%3A"matic"%2C"chainId"%3A137%2C"testnet"%3Afalse%2C"slug"%3A"polygon"%2C"icon"%3A%7B"url"%3A"ipfs%3A%2F%2FQmcxZHpyJa8T4i63xqjPYrZ6tKrt55tZJpbXcjSDKuKaf9%2Fpolygon%2F512.png"%2C"height"%3A512%2C"width"%3A512%2C"format"%3A"png"%7D%7D&clientId=596a0f34181ff540643a3561449f1be7&theme=dark&primaryColor=teal`}
+            width="600px"
+            height="600px"
+            style={{ maxWidth: "100%" }}
+            frameborder="0"
+          ></iframe>
+        </section>
+
         <section className="mt-24">
           <h2 className="text-center text-4xl">JOIN OUR COMMUNITY</h2>
 
