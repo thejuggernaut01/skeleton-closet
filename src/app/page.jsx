@@ -162,7 +162,7 @@ export default function Home() {
                 </Link>
 
                 <Link
-                  href="https://opensea.io/collection/skeletoncloset"
+                  href="https://www.threads.net/@consume_eth"
                   target="_blank"
                   referrerPolicy="no-referrer"
                 >
