@@ -1,5 +1,5 @@
 import Image from "next/image";
-import art182 from "../../public/images/art182.png";
+import art2812 from "../../public/images/2812.png";
 import art15 from "../../public/images/art15.png";
 import art151 from "../../public/images/art151.png";
 import banner from "../../public/images/banner.png";
@@ -26,7 +26,12 @@ export default function Home() {
           </div>
 
           <div className="md:flex-1 relative h-[500px]">
-            <Image src={art182} alt="" fill={true} className="object-contain" />
+            <Image
+              src={art2812}
+              alt=""
+              fill={true}
+              className="object-contain"
+            />
           </div>
         </header>
 

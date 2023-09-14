@@ -1,8 +1,10 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
 import logo from "../../public/images/logo_bit.png";
 import opensea from "../../public/images/opensea.png";
-import Link from "next/link";
+import threads from "../../public/threads.svg";
 
 const Navbar = () => {
   return (
@@ -52,6 +54,14 @@ const Navbar = () => {
             referrerPolicy="no-referrer"
           >
             <Image src={opensea} width={35} height={35} alt="open sea logo" />
+          </Link>
+
+          <Link
+            href="https://www.threads.net/@consume_eth"
+            target="_blank"
+            referrerPolicy="no-referrer"
+          >
+            <Image src={threads} width={35} height={35} alt="open sea logo" />
           </Link>
         </div>
       </nav>
