@@ -5,7 +5,8 @@ import art151 from "../../public/images/art151.png";
 import banner from "../../public/images/banner.png";
 
 import logo from "../../public/images/logo_bit.png";
-import opensea from "../../public/opensea.svg";
+import opensea from "../../public/images/opensea.png";
+import threads from "../../public/threads.svg";
 import Link from "next/link";
 
 export default function Home() {
@@ -154,8 +155,21 @@ export default function Home() {
                 >
                   <Image
                     src={opensea}
-                    width={42}
-                    height={42}
+                    width={60}
+                    height={60}
+                    alt="open sea logo"
+                  />
+                </Link>
+
+                <Link
+                  href="https://opensea.io/collection/skeletoncloset"
+                  target="_blank"
+                  referrerPolicy="no-referrer"
+                >
+                  <Image
+                    src={threads}
+                    width={57}
+                    height={57}
                     alt="open sea logo"
                   />
                 </Link>
